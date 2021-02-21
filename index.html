@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 10</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="block__one">
+			<h2>
+				Восстановление пароля
+			</h2>
+			<p>
+				Введите Email, на него будет выслан новый пароль
+			</p>
+			<form class="form" enctype="multipart/form-data" action="#">
+				<div class="form__line">
+					<div class="form__input">
+						<input id="pasw" class="input" minlength="10" maxlength="40" name="email" placeholder="Почта *"
+							type="email">
+					</div>
+					<a href="#">
+						Вернуться в форму авторизации
+					</a>
+					<button class="form__button" type="submit">Отправить</button>
+				</div>
+			</form>
+			<p>
+				* Если вы не получили письмо с паролем,
+				проверьте папку Спам.
+			</p>
+		</div>
+		<div class="block__two">
+			<h2>
+				Вход
+			</h2>
+			<p>
+				Введите Email, на него будет выслан новый пароль
+			</p>
+			<form class="form" enctype="multipart/form-data" action="#">
+				<div class="form__line">
+					<div class="form__input">
+						<input class="input" minlength="10" maxlength="40" name="email" placeholder="Почта *" type="email">
+					</div>
+					<div class="form__input">
+						<input class="input" minlength="6" maxlength="12" name="password" placeholder="Пароль *"
+							type="password">
+					</div>
+					<div class="form__input">
+						<div class="checkbox">
+							<input class="checkbox__input" type="checkbox" name="focus_me" id="checkfocus_me">
+							<label class="checkbox__label" for="checkfocus_me">Запомнить меня</label>
+						</div>
+						<a href="#pasw">Забыли пароль?</a>
+					</div>
+					<button class="form__button" type="submit">Отправить</button>
+				</div>
+			</form>
+			<p>
+				* Если вы не получили письмо с паролем,
+				проверьте папку Спам.
+			</p>
+		</div>
+		<div class="block__three">
+			<h2>
+				Регистрация
+			</h2>
+			<form class="form" enctype="multipart/form-data" action="#">
+				<div class="form__line">
+					<div class="form__input">
+						<input class="input" type="text" name="name" placeholder="Имя*">
+					</div>
+					<div class="form__input">
+						<input class="input" type="text" name="female" placeholder="Фамилия*">
+					</div>
+					<div class="form__input">
+						<input class="input" type="text" name="login" placeholder="Логин*">
+					</div>
+					<div class="form__input">
+						<input class="input" type="email" name="email" placeholder="EMail*">
+					</div>
+					<div class="form__input">
+						<input class="input" type="password" name="password" placeholder="Пароль*">
+					</div>
+					<div class="form__input">
+						<input class="input" type="password" name="password" placeholder="Повторите пароль*">
+					</div>
+					<div class="form__input">
+						<div class="checkbox__1">
+							<input class="checkbox__input" type="checkbox" name="men" id="checkmen">
+							<label class="checkbox__label" for="checkmen">Мужчина</label>
+						</div>
+						<div class="checkbox__2">
+							<input class="checkbox__input" type="checkbox" name="women" id="checkwomen">
+							<label class="checkbox__label" for="checkwomen">Женщина</label>
+						</div>
+					</div>
+					<div class="form__input">
+						<div class="checkbox">
+							<input class="checkbox__input" type="checkbox" name="agree" id="checkagree">
+							<label class="checkbox__label" for="checkagree">Я согласен с</label>
+						</div>
+						<a class="link" href="#">Условия и правила</a>
+					</div>
+					<button class="form__button" type="submit">Отправить</button>
+					<p>
+						У вас есть аккаунт?
+					</p>
+					<a class="link" href="#">Войти</a>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+
+</body>
+
+</html>

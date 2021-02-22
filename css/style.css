@@ -153,6 +153,9 @@ p:last-of-type {
 	border-radius: 5px;
 	display: block;
 	padding: 10px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #777777;
 }
 .form__button {
 	width: 384px;
